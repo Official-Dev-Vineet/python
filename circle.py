@@ -1,10 +1,7 @@
-import turtle
-t=turtle.Turtle()
+no="1234"
 
-for x in range(1,99):
-    t.color('red')
-    t.left(40*x)
-    t.circle(x*5)
-    t.forward(40*x)
-    t.right(30*x)
-    
+s=set(no)
+print(s)
+s.add("data")
+print(s.pop())
+print(s)
